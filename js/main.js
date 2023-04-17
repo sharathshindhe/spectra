@@ -1,5 +1,5 @@
 /*  ---------------------------------------------------
-    Template Name: Hotel Template
+    Template Name: Hotel Spectra
     Description: Hotel HTML Template
     Author: colorlib
     Author URI: https://www.colorlib.com/
