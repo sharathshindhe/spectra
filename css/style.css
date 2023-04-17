@@ -337,6 +337,10 @@ ol {
 	display: block;
 }
 
+.inner-header .logo img {
+	height: 39px;
+}
+
 .inner-header .main-menu {
 	float: left;
 	margin-right: 25px;
@@ -435,7 +439,7 @@ ol {
 
 .slider-item .single-slider-item h1 {
 	font-size: 96px;
-	color: #ffffff;
+	color: #353535;
 	line-height: 96px;
 }
 
@@ -597,8 +601,8 @@ ol {
 .check-form {
 	padding-left: 60px;
 	padding-right: 60px;
-	padding-top: 55px;
-	padding-bottom: 61px;
+	padding-top: 75px;
+    padding-bottom: 81px;
 	border: 2px solid #AE9548;
 	margin-bottom: 40px;
 }
@@ -1048,6 +1052,10 @@ ol {
 	background: #353535;
 	padding-top: 43px;
 	overflow: hidden;
+}
+
+.footer-section .footer-logo img {
+	height: 50px;
 }
 
 .footer-section .footer-logo {
