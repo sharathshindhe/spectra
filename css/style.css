@@ -140,6 +140,12 @@ ol {
 	background-position: top center;
 }
 
+.set-bg-contain {
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: top center;
+}
+
 .spad {
 	padding-top: 100px;
 	padding-bottom: 100px;
@@ -276,7 +282,7 @@ ol {
 .header-section {
 	background: #353535;
 	padding: 38px 0;
-	position: absolute;
+	position: relative;
 	left: 0;
 	width: 100%;
 }
@@ -338,7 +344,8 @@ ol {
 }
 
 .inner-header .logo img {
-	height: 39px;
+    height: 110px;
+    margin-top: -25px;
 }
 
 .inner-header .main-menu {
@@ -1055,11 +1062,11 @@ ol {
 }
 
 .footer-section .footer-logo img {
-	height: 50px;
+	height: 110px;
 }
 
 .footer-section .footer-logo {
-	margin-bottom: 50px;
+	margin-bottom: 20px;
 }
 
 .footer-section .footer-logo a {
@@ -1103,6 +1110,10 @@ ol {
 }
 
 .footer-section .copyright-area .copyright-text {
+	display: none;
+}
+
+.footer-section .copyright-area .copyright {
 	float: left;
 	font-size: 13px;
 	font-family: "Open Sans", sans-serif;
@@ -1111,11 +1122,11 @@ ol {
 	line-height: 24px;
 }
 
-.footer-section .copyright-area .copyright-text i {
+.footer-section .copyright-area .copyright i {
 	color: #ff2410;
 }
 
-.footer-section .copyright-area .copyright-text a {
+.footer-section .copyright-area .copyright a {
 	color: #ffffff;
 	text-decoration: underline;
 }
@@ -1141,7 +1152,7 @@ ol {
 
 .hero-section {
 	height: 428px;
-	padding-top: 207px;
+	padding-top: 100px;
 }
 
 .hero-text {
@@ -2318,7 +2329,7 @@ ol {
 	.footer-section .copyright-area {
 		text-align: center;
 	}
-	.footer-section .copyright-area .copyright-text {
+	.footer-section .copyright-area .copyright {
 		float: none;
 	}
 	.footer-section .copyright-area .privacy-links {
